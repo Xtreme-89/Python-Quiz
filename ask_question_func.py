@@ -5,7 +5,8 @@ import threading
 score = 0
 # Prints this once timer has finished
 def time_up():
-    print("Time's up!")
+    print("Time's up! Type \'D\' here, and press enter: ")
+    return
 
 
 # Defines function used in quiz code
@@ -23,6 +24,7 @@ def ask_question(quiz, time):
         timer = threading.Timer(time, time_up)
         timer.start()
         a1 = input("\nType your answer: ")
+        timer.cancel()
         # If the answer isn't a, b, c, or d, it keeps asking for an answer
         while a1.lower() not in ["a", "b", "c", "d"]:
             print("that's not a choice!\n")
