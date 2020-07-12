@@ -24,3 +24,7 @@ Can you complete the following tasks?
 - Next, I used a function to randomly pick questions from either the *easy* file or the *hard* file (depending on what the user selected)
 - The function then calculates the score, and tells you the score at the end.
 - Finally, it creates a new file, called `info.txt` which has all the information about the user's quiz (e.g. name, age, easy/hard, score)
+---
+## Improvement Scopes
+
+- 
