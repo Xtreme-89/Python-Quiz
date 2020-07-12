@@ -1,3 +1,5 @@
+import random
+
 def ask_question(quiz):
     global score
     number_of_loops = 1
