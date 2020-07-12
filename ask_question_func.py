@@ -3,21 +3,23 @@ import random
 import threading
 # Score as zero
 score = 0
+
 # Prints this once timer has finished
 def time_up():
-    print("Time's up! Type \'D\' here, and press enter: ")
-    return
-
+    global timeout
+    timeout = True
 
 # Defines function used in quiz code
 def ask_question(quiz, time):
     # Sets the score as global, so that it is editable inside and outside function
     global score
+    global timeout
     number_of_loops = 1
     wrong_questions = []
     correct_questions = []
     print("\nYou get " + str(time) + " seconds to answer each question.\n")
     for question in random.sample(quiz, 5):
+        timeout = False
         print(str(number_of_loops) + ". " + question.get("question"))
         print(question.get("choices"))
         # If timer finishes, goto next question
@@ -30,15 +32,21 @@ def ask_question(quiz, time):
             print("that's not a choice!\n")
             a1 = input("\nType your answer: ")
         # If the user's answer matches the actual answer, it adds the question and answer to a list and adds 1 to the score
-        if a1.lower() == question.get("answer"):
-            print("well done\n")
+        if a1.lower() == question.get("answer") and not timeout:
+            print("Well done\n")
             score += 1
             correct_questions.append(question.get("question"))
             correct_questions.append("You chose: " + question.get("answer"))
             correct_questions.append("")
+        elif a1.lower() == question.get("answer") and timeout:
+            print("Out of time!\n")
+            score = score
+            wrong_questions.append(question.get("question"))
+            wrong_questions.append("The  correct answer was: " + question.get("answer"))
+            wrong_questions.append("")
         else:
             # It add the question to the list of wrong questions  and answers, and keeps the score the same
-            print("better luck next time\n")
+            print("Better luck next time\n")
             score = score
             wrong_questions.append(question.get("question"))
             wrong_questions.append("The  correct answer was: " + question.get("answer"))
