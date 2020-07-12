@@ -19,17 +19,16 @@ with open('easy_questions.txt') as qe:
 # If the user chose easy, it passes the list of dictionaries in "quiz_easy", same for hard
 if easy_hard.lower() == "easy":
     print("\n   Welcome to the Quiz of Books!\nThis quiz will be about Harry Potter\n")
-    ask_question(quiz_easy, 10)
+    ask_question(quiz_easy, 8)
 # Calls on imported function and chooses quiz and time
 elif easy_hard.lower() == "hard":
     print("\n     Welcome to the General Knowledge Quiz!\nThis quiz is about random facts about the world\n")
-
-    ask_question(quiz_hard, 5)
+    ask_question(quiz_hard, 4)
 # If user doesn't input hard or easy, it doesn't do the quiz, score 0
 else:
     print("Ok, so you want no quiz.\n")
 # Tells user their score
-print("\nYour Score: " + str(score) + "/5")
+print("\nYour Score: " + str(score) + "/10")
 # Creates a new file
 info = open("info.txt", "w")
 # User inputs name and age
@@ -47,4 +46,4 @@ info.write("Your name: " + name + "\n")
 
 info.write("Your age: " + str(age) + "\n")
 
-info.write("You got: " + str(score) + "/5")
+info.write("You got: " + str(score) + "/10")

@@ -27,4 +27,17 @@ Can you complete the following tasks?
 ---
 ## Improvement Scopes
 
-- 
+- Add a wider range of questions
+- Convert the number of questions to a variable to change it easily
+
+---
+## Instructions
+
+1. Download the following files from Github:
+    - `Tech Challenge.py`
+    - `ask_question_func.py`
+    - `easy_questions.txt`
+    - `hard_questions.txt`
+2. Make sure all of these files are in the same directory
+3. Run `Tech Challenge.py`
+check the new file in the directory, `info.py`

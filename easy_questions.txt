@@ -22,7 +22,40 @@
   {
     "question": "What made Voldemort immortal and inhuman?",
     "choices": "  A - Totems of Undying\n  B - Unicorns\n  C - Horcruxes",
-    "answer": "c"
+    "answer": ""
   }
-
+  {
+    "question": " How does Harry manage to breathe underwater during the second task of the Triwizard Tournament?",
+    "choices": "  A - Bubblehead charm\n  B - Gillyweed\n  C - Transfigures into a shark",
+    "answer": "b"
+  },
+  {
+    "question": "What is the name of Fred and George’s joke shop?",
+    "choices": "  A - Weasley Joke Emporium\n  B - Zonko’s Joke Shop\n  C - Weasleys’ Wizard Wheezes",
+    "answer": "c"
+  },
+  {
+    "question": "Which of these is NOT one of the Unforgivable Curses?",
+    "choices": "  A - Sectumsempra\n  B - The Cruciatus curse\n  C - Avada kedavra",
+    "answer": "a"
+  },
+  {"question": "Who guards the entrance to the Gryffindor common room?",
+    "choices": "  A - The Grey Lady\n  B - The Fat Friar\n  C - The Fat Lady",
+    "answer": "c"
+  },
+  {
+    "question": "What does the spell “Obliviate” do?",
+    "choices": "  A - Destroys objects\n  B - Makes objects invisible\n  C - Removes parts of someone’s memory",
+    "answer": "c"
+  },
+  {
+    "question": "Where does Hermione brew her first batch of Polyjuice Potion?",
+    "choices": "  A - The Room of Requirement\n  B - Moaning Myrtle's bathroom\n  C - The Gryffindor Common Room",
+    "answer": "b"
+  },
+  {
+    "question": "What does one say to close the Marauder’s Map and make it blank again?",
+    "choices": "  A - Mischief Managed\n  B - All Done\n  C - Nothing to See Here",
+    "answer": "a"
+  }
 ]

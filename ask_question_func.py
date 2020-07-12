@@ -18,7 +18,7 @@ def ask_question(quiz, time):
     wrong_questions = []
     correct_questions = []
     print("\nYou get " + str(time) + " seconds to answer each question.\n")
-    for question in random.sample(quiz, 5):
+    for question in random.sample(quiz, 10):
         timeout = False
         print(str(number_of_loops) + ". " + question.get("question"))
         print(question.get("choices"))
