@@ -1,0 +1,27 @@
+[
+  {
+    "question": "How tall is the Eiffel Tower (to tip)?",
+    "choices": "  A - 300m\n  B - 324m\n  C - 325m\n  D - 347m",
+    "answer": "b"
+  },
+  {
+    "question": "What is the Statue of Liberty mostly made of?",
+    "choices": "  A - Steel\n  B - Green polymer\n  C - Copper\n  D - Cast iron",
+    "answer": "c"
+  },
+  {
+    "question": "Why is the sky blue?",
+    "choices": "  A - Blue light gets scattered more\n  B - Red light gets reflected back at the Sun\n  C - Our brains interpret the light that way\n  D - It's mostly ultraviolet, which we can see as purple or blue",
+    "answer": "a"
+  },
+  {
+    "question": "How long does it take for the Earth to rotate around the Sun?",
+    "choices": "  A - 365 days\n  B - 365.246 days\n  C - 366 days\n  D - 365.24 days",
+    "answer": "d"
+  },
+  {
+    "question": "What is the longest river in the UK?",
+    "choices": "  A - River Thames\n  B - River Wye\n  C - River Severn\n  D - River Trent",
+    "answer": "c"
+  }
+]
