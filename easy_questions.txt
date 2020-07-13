@@ -21,11 +21,11 @@
   },
   {
     "question": "What made Voldemort immortal and inhuman?",
-    "choices": "  A - Totems of Undying\n  B - Unicorns\n  C - Horcruxes",
+    "choices": "  A - Totems of Undying\n  B - Unicorn blood\n  C - Horcruxes\n  D - The Philosopher's Stone",
     "answer": "c"
   },
   {
-    "question": " How does Harry manage to breathe underwater during the second task of the Triwizard Tournament?",
+    "question": "How does Harry manage to breathe underwater during the second task of the Triwizard Tournament?",
     "choices": "  A - Bubblehead charm\n  B - Gillyweed\n  C - Transfigures into a shark",
     "answer": "b"
   },
@@ -44,7 +44,7 @@
     "answer": "c"
   },
   {
-    "question": "What does the spell “Obliviate” do?",
+    "question": "What does the spell \'Obliviate\' do?",
     "choices": "  A - Destroys objects\n  B - Makes objects invisible\n  C - Removes parts of someone’s memory",
     "answer": "c"
   },
@@ -54,7 +54,7 @@
     "answer": "b"
   },
   {
-    "question": "What does one say to close the Marauder’s Map and make it blank again?",
+    "question": "What does one say to close the Marauder\'s Map and make it blank again?",
     "choices": "  A - Mischief Managed\n  B - All Done\n  C - Nothing to See Here",
     "answer": "a"
   }

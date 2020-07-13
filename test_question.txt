@@ -1,0 +1,32 @@
+[
+  {
+    "question": "What house is Harry Potter in?",
+    "choices": "  A - Gryffindor\n  B - Ravenclaw\n  C - Hufflepuff\n  D - Slytherin",
+    "answer": "a"
+  },
+  {
+    "question": "What is Harry Potter's wand core?",
+    "choices": "  A - Dragon heartstring\n  B - Phoenix feather\n  C - Unicorn string",
+    "answer": "b"
+  },
+  {
+    "question": "Who is Harry's best friend",
+    "choices": "  A - Neville\n  B - Hermione\n  C - Ron\n  D - Ginny",
+    "answer": "c"
+  },
+  {
+    "question": "Who is Harry's enemy at school?",
+    "choices": "  A - Crabbe\n  B - Goyle\n  C - Dean\n  D - Malfoy",
+    "answer": "d"
+  },
+  {
+    "question": "What made Voldemort immortal and inhuman?",
+    "choices": "  A - Totems of Undying\n  B - Unicorn blood\n  C - Horcruxes\n  D - The Philosopher's Stone",
+    "answer": "c"
+  },
+  {
+    "question": "How does Harry manage to breathe underwater during the second task of the Triwizard Tournament?",
+    "choices": "  A - Bubblehead charm\n  B - Gillyweed\n  C - Transfigures into a shark",
+    "answer": "b"
+  }
+]
