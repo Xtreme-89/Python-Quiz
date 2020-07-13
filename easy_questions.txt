@@ -22,8 +22,8 @@
   {
     "question": "What made Voldemort immortal and inhuman?",
     "choices": "  A - Totems of Undying\n  B - Unicorns\n  C - Horcruxes",
-    "answer": ""
-  }
+    "answer": "c"
+  },
   {
     "question": " How does Harry manage to breathe underwater during the second task of the Triwizard Tournament?",
     "choices": "  A - Bubblehead charm\n  B - Gillyweed\n  C - Transfigures into a shark",

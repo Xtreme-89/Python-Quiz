@@ -23,7 +23,7 @@
     "question": "What is the longest river in the UK?",
     "choices": "  A - River Thames\n  B - River Wye\n  C - River Severn\n  D - River Trent",
     "answer": "c"
-  }
+  },
   {
     "question": "What is the capital of Chile?",
     "choices": "  A - Santiago\n  B - San Diego\n  C - Central Chile",
