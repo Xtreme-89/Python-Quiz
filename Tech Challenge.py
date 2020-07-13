@@ -41,11 +41,7 @@ else:
   info.write("You didn't do the quiz.\n\n")
 
 info.write("Your name: " + name + "\n")
-
 info.write("Your age: " + str(age) + "\n")
-
 info.write("You got: " + str(score) + "/8")
-
 info.write(right_q)
-
 info.write(wrong_q)
