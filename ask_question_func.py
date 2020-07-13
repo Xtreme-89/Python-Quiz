@@ -64,5 +64,3 @@ def ask_question(quiz, time):
     for aq in wrong_questions:
         print(aq)
     return score
-    return correct_questions
-    return wrong_questions
