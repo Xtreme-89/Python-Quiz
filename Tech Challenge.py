@@ -1,10 +1,7 @@
 import ast
 import random
 from ask_question_func import ask_question
-from ask_question_func import wrong_q
-from ask_question_func import right_q
 #to set the value for the score
-score = 0
 
 # Asks the user to choose
 print("Would you like to do the easy quiz or the hard quiz?")
@@ -15,13 +12,13 @@ if easy_hard.lower() == "easy":
     with open('easy_questions.txt') as qe:
         quiz_easy = ast.literal_eval(qe.read())
     print("\n   Welcome to the Quiz of Books!\nThis quiz will be about Harry Potter\n")
-    ask_question(quiz_easy, 8)
+    score = ask_question(quiz_easy, 8)
 # Calls on imported function and chooses quiz and time
 elif easy_hard.lower() == "hard":
     with open('hard_questions.txt') as qh:
         quiz_hard = ast.literal_eval(qh.read())
     print("\n     Welcome to the General Knowledge Quiz!\nThis quiz is about random facts about the world\n")
-    ask_question(quiz_hard, 4)
+    score = ask_question(quiz_hard, 4)
 # If user doesn't input hard or easy, it doesn't do the quiz, score 0
 else:
     print("Ok, so you want no quiz.\n")
@@ -43,5 +40,5 @@ else:
 info.write("Your name: " + name + "\n")
 info.write("Your age: " + str(age) + "\n")
 info.write("You got: " + str(score) + "/8")
-info.write(right_q)
-info.write(wrong_q)
+#info.write("\n\nCorrect questions:\n" + correct_questions)
+#info.write("\n\nWrong questions\n" + wrong_questions)

@@ -4,16 +4,6 @@ import threading
 # Score as zero
 score = 0
 
-def wrong_q():
-    print("\nWrong Questions:\n")
-    for aq in wrong_questions:
-        print(aq)
-
-def right_q():
-    print("\nCorrect Questions:\n")
-    for qa in correct_questions:
-        print(qa)
-
 # Prints this once timer has finished
 def time_up():
     global timeout
@@ -70,4 +60,9 @@ def ask_question(quiz, time):
     for qa in correct_questions:
         print(qa)
     # Prints the list of wrong questions and correct answers
-    wrong_q()
+    print("\nWrong Questions:\n")
+    for aq in wrong_questions:
+        print(aq)
+    return score
+    return correct_questions
+    return wrong_questions
