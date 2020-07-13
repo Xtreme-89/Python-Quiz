@@ -21,7 +21,7 @@ Can you complete the following tasks?
 - I created two files, one for hard questions and one for the easy questions.
 - I then **imported** the two files and used **ast** to scan for **python literals.**
 - I used this to identify the questions as a list of dictionaries. 
-- Next, I used a function to randomly pick questions from either the *easy* file or the *hard* file (depending on what the user selected)
+- Next, I used a function to randomly pick questions from either the ***easy*** file or the ***hard*** file (depending on what the user selected)
 - The function then calculates the score, and tells you the score at the end.
 - Finally, it creates a new file, called `info.txt` which has all the information about the user's quiz (e.g. name, age, easy/hard, score)
 ---
@@ -40,4 +40,4 @@ Can you complete the following tasks?
     - `hard_questions.txt`
 2. Make sure all of these files are in the same directory
 3. Run `Tech Challenge.py`
-check the new file in the directory, `info.py`
+check the new file in the directory `info.py` for score.

@@ -1,6 +1,8 @@
 import ast
 import random
 from ask_question_func import ask_question
+from ask_question_func import wrong_q
+from ask_question_func import right_q
 #to set the value for the score
 score = 0
 
@@ -43,3 +45,7 @@ info.write("Your name: " + name + "\n")
 info.write("Your age: " + str(age) + "\n")
 
 info.write("You got: " + str(score) + "/8")
+
+info.write(right_q)
+
+info.write(wrong_q)
